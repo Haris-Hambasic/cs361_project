@@ -1,0 +1,31 @@
+.header-outer-container {}
+
+.header-inner-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-container {}
+
+.header-logo {}
+
+.header-links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-link {
+    text-decoration: none;
+    margin-right: 2.5rem;
+}
+
+.header-link:last-child {
+    margin-right: 0;
+}
+
+.header-link:hover {
+    color: #ffe81f;
+}

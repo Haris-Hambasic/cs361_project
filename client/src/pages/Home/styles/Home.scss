@@ -1,0 +1,57 @@
+.home-page-outer-container {
+    width: 100vw;
+}
+
+.home-page-inner-container {}
+
+.hero-container {
+    text-align: center;
+    margin: 3rem auto 6rem auto;
+}
+
+.hero-calling {
+    color: #ffe81f;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.hero-calling-supporting {
+    font-size: 1.75rem;
+    letter-spacing: .8px;
+    line-height: 1.6;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.home-page-content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-page-characters,
+.home-page-starships,
+.home-page-other {
+    margin: 0 5rem;
+    padding: 4rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #ffe81f;
+    box-shadow: lightgrey 0px 0px 50px;
+}
+
+.home-page-characters:hover,
+.home-page-starships:hover,
+.home-page-other:hover {
+    cursor: pointer;
+}
+
+.home-page-characters {}
+
+.home-page-starships {}
+
+.home-page-other {}
+
+.home-page-link {
+    text-decoration: none;
+}
