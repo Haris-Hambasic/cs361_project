@@ -6,6 +6,7 @@ import './App.css';
 
 // PAGES
 import { Home } from './pages/Home/Home';
+import { Character } from "./pages/Character/Character";
 import { Characters } from "./pages/Characters/Characters";
 
 // COMPONENTS
@@ -18,6 +19,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/characters/:characterName" element={<Character />} />
           <Route path="/characters" element={<Characters />} />
         </Routes>
       </BrowserRouter>

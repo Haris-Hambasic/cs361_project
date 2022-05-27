@@ -1,0 +1,50 @@
+.character-stats-youtube-video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.character-inner-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.character-stats-container {
+    width: 45%;
+    padding: 2rem;
+    box-shadow: #f6f6f6 0px 0px 50px;
+}
+
+.character-name,
+.character-eye-color,
+.character-homeworld {
+    margin-bottom: 2.5rem;
+}
+
+.character-name {
+    font-size: 1.75rem;
+}
+
+.character-eye-color {
+    font-size: 1.35rem;
+}
+
+.character-homeworld {
+    font-size: 1.35rem;
+    text-decoration: none;
+    background-color: #ffe81f;
+    border-radius: 6px;
+    padding: .75rem;
+    font-weight: bold;
+}
+
+.wiki-scraper-container {
+    margin: 4rem 0 0;
+    padding: 0 2rem;
+}
+
+.wiki-scraper-content {
+    font-size: 1.35rem;
+    line-height: 1.9;
+    letter-spacing: .8px;
+}

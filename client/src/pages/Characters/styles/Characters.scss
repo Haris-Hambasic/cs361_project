@@ -1,0 +1,29 @@
+.characters-inner-container {
+    width: 75%;
+    margin: 5rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.character-container {
+    width: 45%;
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #ffe81f;
+    margin-bottom: 5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.character-container:hover {
+    cursor: pointer;
+}
+
+.characters-character-name {
+    font-size: 3rem;
+    color: #fff;
+}
